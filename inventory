@@ -1,1 +1,2 @@
-satellite.office.int.scheib.me ansible_user=ansible-provisioning ansible_port=1905
+#satellite.office.int.scheib.me ansible_user=ansible-provisioning ansible_port=1905
+satellite.home.b-lenz.eu ansible_user=benny ansible_port=22
