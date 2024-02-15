@@ -1,0 +1,9 @@
+---
+# Define the Domains
+satellite_domains:
+  - name: 'home.b-lenz.eu'
+    description: 'home.b-lenz.eu'
+    locations:
+      - '{{ satellite_location }}'
+    organizations:
+      - '{{ satellite_organization }}'

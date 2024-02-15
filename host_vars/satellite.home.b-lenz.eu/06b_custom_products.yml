@@ -1,0 +1,25 @@
+---
+# custom products
+#
+sat_custom_products:
+  - name: 'prd-epel-for-rhel8'
+    repositories:
+      - name: 'repo-epel-for-rhel8'
+        url: 'https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/'
+        gpg_key: 'gpg-epel-8'
+        content_type: 'yum'
+        download_policy: 'immediate'
+        mirroring_policy: 'mirror_content_only'
+        auto_enabled: false
+        ignorable_content: []
+      
+  - name: 'prd-epel-for-rhel9'
+    repositories:
+      - name: 'repo-epel-for-rhel9'
+        url: 'https://dl.fedoraproject.org/pub/epel/9/Everything/x86_64/'
+        gpg_key: 'gpg-epel-9'
+        content_type: 'yum'
+        download_policy: 'immediate'
+        mirroring_policy: 'mirror_content_only'
+        auto_enabled: false
+        ignorable_content: []

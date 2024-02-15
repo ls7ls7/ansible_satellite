@@ -1,0 +1,10 @@
+---
+sat_products:
+  # Red Hat repositories
+  #
+  - name: 'Red Hat Enterprise Linux Server'
+    repository_sets:
+      - name: 'Red Hat Enterprise Linux 7 Server (RPMs)'
+        releasever: '7Server'
+        basearch: 'x86_64'
+        download_policy: 'on_demand'
