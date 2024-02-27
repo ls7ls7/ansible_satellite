@@ -12,7 +12,7 @@ satellite_subnets:
     discovery_proxy: '{{ inventory_hostname }}'
     remote_execution_proxies:
       - '{{ inventory_hostname }}'
-    dns_primary: '172.31.41.3'
+    dns_primary: '172.31.41.6'
     dns_secondary: '172.31.41.1'
     domains:
       - 'home.b-lenz.eu'

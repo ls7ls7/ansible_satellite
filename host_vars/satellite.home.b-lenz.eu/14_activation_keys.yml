@@ -15,13 +15,10 @@ satellite_activation_keys:
     purpose_usage: 'Production'
     purpose_role: 'Red Hat Enterprise Linux Server'
     content_overrides:
-      - label: 'ansible-automation-platform-2.3-for-rhel-8-x86_64-rpms'
+      - label: 'ansible-automation-platform-2.4-for-rhel-8-x86_64-rpms'
         override: 'enabled'
 
       - label: 'satellite-client-6-for-rhel-8-x86_64-rpms'
-        override: 'enabled'
-
-      - label: 'org-core_prd-elastic-elastic_repo-elastic-elastic-8-el-8'
         override: 'enabled'
 
       - label: 'org-core_prd-zabbix-zabbix_repo-zabbix-zabbix-6_0-rhel-8'
@@ -37,13 +34,10 @@ satellite_activation_keys:
     purpose_usage: 'Production'
     purpose_role: 'Red Hat Enterprise Linux Server'
     content_overrides:
-      - label: 'ansible-automation-platform-2.3-for-rhel-8-x86_64-rpms'
+      - label: 'ansible-automation-platform-2.4-for-rhel-8-x86_64-rpms'
         override: 'enabled'
 
       - label: 'satellite-client-6-for-rhel-8-x86_64-rpms'
-        override: 'enabled'
-
-      - label: 'org-core_prd-elastic-elastic_repo-elastic-elastic-8-el-8'
         override: 'enabled'
 
       - label: 'org-core_prd-zabbix-zabbix_repo-zabbix-zabbix-6_0-rhel-8'
@@ -59,7 +53,7 @@ satellite_activation_keys:
     purpose_usage: 'Production'
     purpose_role: 'Red Hat Enterprise Linux Server'
     content_overrides:
-      - label: 'ansible-automation-platform-2.3-for-rhel-9-x86_64-rpms'
+      - label: 'ansible-automation-platform-2.4-for-rhel-9-x86_64-rpms'
         override: 'enabled'
 
       - label: 'satellite-client-6-for-rhel-9-x86_64-rpms'
@@ -78,7 +72,7 @@ satellite_activation_keys:
     purpose_usage: 'Production'
     purpose_role: 'Red Hat Enterprise Linux Server'
     content_overrides:
-      - label: 'ansible-automation-platform-2.3-for-rhel-9-x86_64-rpms'
+      - label: 'ansible-automation-platform-2.4-for-rhel-9-x86_64-rpms'
         override: 'enabled'
 
       - label: 'satellite-client-6-for-rhel-9-x86_64-rpms'
@@ -100,9 +94,6 @@ satellite_activation_keys:
       - label: 'satellite-client-6-for-rhel-8-x86_64-rpms'
         override: 'enabled'
 
-      - label: 'org-core_prd-elastic-elastic_repo-elastic-elastic-8-el-8'
-        override: 'enabled'
-
       - label: 'org-core_prd-zabbix-zabbix_repo-zabbix-zabbix-6_0-rhel-8'
         override: 'enabled'
 
@@ -117,9 +108,6 @@ satellite_activation_keys:
     purpose_role: 'Red Hat Enterprise Linux Server'
     content_overrides:
       - label: 'satellite-client-6-for-rhel-8-x86_64-rpms'
-        override: 'enabled'
-
-      - label: 'org-core_prd-elastic-elastic_repo-elastic-elastic-8-el-8'
         override: 'enabled'
 
       - label: 'org-core_prd-zabbix-zabbix_repo-zabbix-zabbix-6_0-rhel-8'

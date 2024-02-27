@@ -4,9 +4,6 @@ sat_settings_general:
   - name: 'instance_title'
     value: '{{ inventory_hostname }}'
 
-  - name: 'host_power_status'
-    value: false
-
   - name: 'entries_per_page'
     value: 200
 

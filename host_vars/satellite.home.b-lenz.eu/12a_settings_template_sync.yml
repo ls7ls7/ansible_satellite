@@ -11,13 +11,13 @@ sat_settings_template_sync:
     value: '^(pv?t|snt)-'
 
   - name: 'template_sync_repo'
-    value: 'ssh://git@github.com/sscheib/satellite_templates.git'
+    value: 'ssh://git@github.com/ls7ls7/satellite_templates.git'
 
   - name: 'template_sync_negate'
     value: false
 
   - name: 'template_sync_branch'
-    value: 'office'
+    value: 'devel'
 
   - name: 'template_sync_force'
     value: true

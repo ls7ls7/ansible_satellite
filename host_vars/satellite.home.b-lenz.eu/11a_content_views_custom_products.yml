@@ -1,12 +1,12 @@
 ---
 # Define Content Views that contain custom Products
 sat_content_views_custom_products:
-  - name: 'cv-epel-for-rhel8'
+  - name: 'cv-zabbix-zabbix-rhel-8'
     repositories:
-      - name: 'repo-epel-for-rhel8'
-        product: 'prd-epel-for-rhel8'
+      - name: 'repo-zabbix-zabbix-6_0-rhel-8'
+        product: 'prd-zabbix-zabbix'
 
-  - name: 'cv-epel-for-rhel9'
+  - name: 'cv-zabbix-zabbix-rhel-9'
     repositories:
-      - name: 'repo-epel-for-rhel9'
-        product: 'prd-epel-for-rhel9'
+      - name: 'repo-zabbix-zabbix-6_0-rhel-9'
+        product: 'prd-zabbix-zabbix'
