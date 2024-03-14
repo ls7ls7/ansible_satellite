@@ -1,3 +1,4 @@
 ---
 # Merging all Global Parameters
-sat_global_parameters: '{{ sat_global_parameters_general }}'
+sat_global_parameters: '{{ sat_global_parameters_remote_execution +
+                           sat_global_parameters_general }}'

@@ -19,4 +19,4 @@ sat_global_parameters_general:
   - name: 'p-enable_fips_deployment'
     parameter_type: 'boolean'
     hidden_value: false
-    value: true
+    value: false
